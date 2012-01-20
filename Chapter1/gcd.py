@@ -7,5 +7,6 @@ def gcd(a,b):
 		return gcd(b,a%b)
 
 if __name__ == '__main__':
-	
-	print gcd(24,16)
+	a = int(raw_input('Please input a: '))
+	b = int(raw_input('Please input b: '))
+	print gcd(a,b)
